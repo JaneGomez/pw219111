@@ -1,0 +1,11 @@
+commit ac7647979f85358cd11f7942fc989334462f3904
+Author: CCDM04 <ccdm04@CCDM04.local>
+Date:   Mon Feb 18 11:50:14 2019 -0700
+
+     Cambio de titulo y texto del body
+
+commit 619812e9746532e0b8a22d564bc2ee97c98d09e0
+Author: CCDM04 <ccdm04@CCDM04.local>
+Date:   Mon Feb 18 11:44:36 2019 -0700
+
+    Inicio de proyecto - commit inicial
