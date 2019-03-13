@@ -5,6 +5,9 @@ body{
 	min-width: 1078px;
 	max-width: 1078px;
 }
+footer{
+	background: #4367B3;
+}
 header input{
 	float: right;
 	margin-right:  -250px;
@@ -24,6 +27,9 @@ header nav ul li{
 	padding-bottom:  2px;
 	/*text-decoration: underline;*/
 }
+#artFooter1{
+	width: 35%;
+}
 #bgoffer{
 	left: -35px;
 	position: relative;
@@ -32,6 +38,9 @@ header nav ul li{
 #granthams{
 	margin-left: 25px;
 	margin-top: 25px;
+}
+#seccionFooter article{
+	display: inline-block;
 }
 #paint{
 	float: right;
@@ -60,9 +69,36 @@ header nav ul li{
 	content: "• ";
 	color: #FF0099;
 }
+#secc03art04{
+	padding-top: 40px;
+}
 #segundaSeccion article{
 	padding-right: 122px;
 	text-align: right;
+}
+#terceraSeccion article{
+	display: inline-block;
+	vertical-align: top;
+	width: 23%;
+}
+#terceraSeccion article img{
+	vertical-align: middle;
+}
+#terceraSeccion article input{
+	border-radius: 5px;
+}
+#terceraSeccion article input[type="button"]{
+	background: #8BC500;
+	color: white;
+}
+.colorazul{
+	color: #4267B3;
+}
+.colorblanco{
+	color: white;
+}
+.colorverde{
+	color: #8BC500;
 }
 .colorrosa{
 	color: #FF0099;
