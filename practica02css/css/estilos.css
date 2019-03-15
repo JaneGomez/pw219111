@@ -28,7 +28,13 @@ header nav ul li{
 	/*text-decoration: underline;*/
 }
 #artFooter1{
-	width: 35%;
+	padding-left: 30px;
+}
+#artFooter2{
+	padding-top: 30px;
+}
+#artFooter3{
+	padding-left: 30px;
 }
 #bgoffer{
 	left: -35px;
@@ -39,8 +45,32 @@ header nav ul li{
 	margin-left: 25px;
 	margin-top: 25px;
 }
+#icon_facebook{
+	position: relative;
+	right: -730px;
+	top:30px;
+}
+#icon_twitter{
+	position: relative;
+	right: -740px;
+	top: 30px;
+}
+#monitos{
+	position: relative;
+	right: -900px;
+}
 #seccionFooter article{
 	display: inline-block;
+	padding-top: 45px;
+	text-align: center;
+	vertical-align: middle;
+	width: 32%;
+}
+#seccionFooter article input{
+	border-radius: 9px;
+	background: #4267B3;
+	border-bottom: 1px solid white;
+	color: white;
 }
 #paint{
 	float: right;
@@ -102,6 +132,9 @@ header nav ul li{
 }
 .colorrosa{
 	color: #FF0099;
+}
+.letrachica{
+	font-size: 0.7em;
 }
 .letragrande{
 	font-size: 3.5em;
