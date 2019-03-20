@@ -1,0 +1,10 @@
+@font-face{
+			font-family: Nunito;
+			src:url("Nunito/Nunito-Bold.ttf");
+		}
+		#textoDescargado{
+			font-family: 'Nunito', sans-serif;
+		}
+		#textoReferenciado{
+			font-family: 'Roboto', sans-serif;
+		}
