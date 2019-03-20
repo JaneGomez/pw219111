@@ -2,99 +2,104 @@
 <html lang="es">
 <head>
 	<title>Practica 04 CSS+HTML5</title>
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
 </head>
 <body>
 	<header>
-		<img src="img/first_bike.png">
-		<img src="img/logo_rojo.png">
-		<img src="img/bandera.png">
-		<img src="img/mundo.png">
-		<img src="img/buy.png">
-		<img src="img/go_to_shop.png">
-		<nav>
-			<ul>
-				<li>Home</li>
-				<li>About</li>
-				<li>Bikes</li>
-				<li>News</li>
-				<li>Support</li>
-				<li>Contact</li>
-				<li>Blog</li>
-				<li>Store</li>
-			</ul>
-		</nav>
+		<section id="SeccionHeader">
+			<article id="secc01art01">
+				<img src="img/first_bike.png">
+				<nav>
+					<ul>
+						<li>Home</li>	
+						<li>About</li>
+						<li>Bikes</li>
+						<li>News</li>
+						<li>Support</li>
+						<li>Contact</li>
+						<li>Blog</li>
+						<li>Store</li>
+					</ul>
+				</nav>
+			</article>
+			<article id="secc01art02">
+				<article id="header1">
+					<img src="img/logo_rojo.png">
+					<img src="img/bandera.png">
+					<img src="img/mundo.png">
+				</article>
+				<article>
+					<img id="buy" src="img/buy.png">
+					<img id="GoToShop" src="img/go_to_shop.png">
+				</article>
+			</article>
+		</section>
 	</header>
-	<section id="primerSeccion">
-		<article id="secc01art01">
-			<article id="secc01art01art01">
-				FISRT SENSE OF <span class="colorverde">BALANCE</span> <br>
+	<section id="secc02">
+		<article id="secc02art01">
+			<article id="secc02art01art01">
+				<SPAN class="letragrande">FIRST SENSE OF</SPAN><br><span class="letragrande letraverde">BALANCE</span>
 			</article>
-			<article id="secc01art01art02">
-				The perfect training bike for your child from 2 to 5 years old and the fisrt choice for parents worldwide. FirstBIKE supports the development of a child's balance and provides a no-stress method of learning to ride a bike. <br>
-				<img src="img/video01.png">
-				<img src="img/video02.png">
+			<article id="secc02art01art02">
+				<span id="texto">The perfect training bike for your child from 2 to 5 years old and the first choice for parents worldwide. FirstBIKE supports the development of a child's balance and provides a no-stress method of learning to ride a bike.</span>
+				<br>
+				<img class="soloimagen" src="img/video01.png">
+				<img class="soloimagen" src="img/video02.png">
 			</article>
 		</article>
-		<article id="secc01art02">
-			<img src="img/5years.png">
+		<article id="secc02art02">
 			<img src="img/bike.jpg">
-		</article>
-	</section>
-	<section id="segundaSeccion">
-		<article>
-				<img src="img/logos_footer.png">
-				&copy; 2014 Miles Year Ltd, Official Distributor of FirstBIKE in Hong Kong
+			<img src="img/5years.png">
 		</article>
 	</section>
 	<footer>
-		<section>
-			<article id="seccFooterart01">
-				<span class="colorgris">
-					ABOUT US
-					<article id="seccFooterart01art1">
-					About FirstBIKE
-					About Miles Year Ltd
-					Careers
-					Contact us
-					</article>
-				</span>
+		<section id="seccFoo01">
+			<article>
+				<img src="img/logos_footer.png">
+				<span id="Text">&copy; 2014 Miles Year Ltd, Official Distributor of FirstBIKE in Hong Kong</span>
 			</article>
-			<article id="seccFooterart02">
-				<span class=""colorgris>
-					COSTUMER INFO
-					<article id="seccFooterart02art01">
-					Customer Service
-					Return & Exchanges
-					Shipping
-					Find a Store
-					</article>
-				</span>
+		</section>
+		<section id="seccFoo02">
+			<article id=seccFoo02art01>
+				<article class="borde">ABOUT US</article>
+				<article class="borde">CUSTOMER INFO</article>
+				<article class="borde">OUR POLICIES</article>
+				<article class="borde">ACTIVITIES</article>
+				<article class="borde">NEWSLETTER</article>
 			</article>
-			<article id="seccFooterart03">
-				<span class="colorgris">
-					OUR POLICES
-					<article id="seccFooterart03art01">
-					Privacy Policy
-					Terms and Conditions
-					</article>
-				</span>
-			</article>
-			<article id="seccFooterart04">
-				<span class="colorgris">
-					ACTIVITIES
-					<article id="seccFooterart04art01">
-					Latest News
-					Racing/Competition
-					</article>
-				</span>
-			</article>
-			<article id="seccFooterart05">
-				<span class="colorgris">
-					NEWSLATTER
-					<article id="seccFooterart05art01">
-					Keep in touch with us to find out exclusively special for you
-					</article>
-				</span>
+			<article id="seccFoo02art02">
+				<article>
+					<ul>
+						<li>About FirstBIKE</li>
+						<li>About Miles Year Ltd</li>
+						<li>Carrers</li>
+						<li>Contact Us</li>
+					</ul>
+				</article>
+				<article>
+					<ul>
+						<li>Customer Service</li>
+						<li>Return & Exchanges</li>
+						<li>Shipping</li>
+						<li>Find a Store</li>
+					</ul>
+				</article>
+				<article>
+					<ul>
+						<li>Privacy Policy</li>
+						<li>Terms and Conditions</li>
+					</ul>
+				</article>
+				<article>
+					<ul>
+						<li>Latest News</li>
+						<li>Racing/Competition</li>
+					</ul>
+				</article>
+				<article>
+					<ul>Keep in touch with us to find out
+					exclusively special for you</ul>
+				</article>
 			</article>
 		</section>
 	</footer>
