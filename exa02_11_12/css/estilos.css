@@ -1,0 +1,89 @@
+@font-face{
+	font-family: Roboto;
+	src:url("fonts/Roboto/Roboto-Regular.ttf");
+}
+@font-face{
+	font-family: Anton;
+	src:url("fonts/Anton/Anton-Regular.ttf");
+}
+@font-face{
+	font-family: Karla;
+	src:url("fonts/Karla/Karla-Regular.ttf");
+}
+@font-face{
+	font-family: Heebo;
+	src:url("fonts/Heebo/Heebo-Regular.ttf");
+}
+body{
+	font-size: 16px;
+	margin: 0px auto;
+	max-width: 1024px;
+}
+header{
+	border-bottom: 2px solid black;
+}
+header article{
+	display: inline-block;
+	width: 32%;
+}
+header article img{
+	width: 8%;
+	position: relative;
+	padding-top: 20px;
+}
+#seccHeader{
+	padding-bottom: 10px;
+}
+#secc01art01{
+	position: relative;
+	padding-bottom: 5px;
+}
+#secc01art02header{
+	text-align: center;
+}
+#secc01art03{
+	text-align: right;
+}
+#secc01art01art01{
+	padding-top: 90px;
+	position: relative;
+	text-align:center;
+	width: 10%;
+}
+#secc01art01art02 img{
+	position: relative;
+	padding-top: 15px;
+	width: 110%;
+}
+#secc01art01art02{
+	margin-left: 40px;
+	width: 45%;
+}
+#secc01art02{
+	border-left: 2px solid black;
+	margin-left: 80px;
+	padding-left: 20px;
+	width: 30%;
+}
+#secc01art02 img{
+	width: 70%;
+}
+#primerSeccion article{
+	display: inline-block;
+}
+.colorgris{
+	color: #969191;
+}
+
+#fuenteroboto{
+	font-family: 'Roboto', sans-serif;
+}
+#fuenteanton{
+	font-family: 'Anton', sans-serif;
+}
+#fuentekarla{
+	font-family: 'Karla', sans-serif;
+}
+#fuenteheebo{
+	font-family: 'Heebo', sans-serif;
+}
